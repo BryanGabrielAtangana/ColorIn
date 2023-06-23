@@ -1,0 +1,144 @@
+:root {
+    --primary: #D81E5D;
+    --secondary: #8A4FFF;
+    --light: #eee;
+    --grey: #fafafa;
+    --dark: #1e2f42;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button,
+input {
+    background: none;
+    border: none;
+    appearance: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+main {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--dark);
+}
+
+p {
+    color: var(--dark);
+    font-size: 1.2rem;
+}
+
+.generator-button {
+    font-size: inherit;
+    color: var(--primary);
+    font-weight: 700;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s ease-out;
+}
+
+.generator-button:hover {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h2,
+p,
+input {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    margin: 2rem 0;
+    color: #848181;
+    text-transform: uppercase;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    padding: 0.5rem 1rem;
+    transition: 0.4s ease-out;
+    border: 2px solid transparent;
+}
+
+.color>input,
+.color>button {
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+
+.color.copied {
+    border-color: #D81E5D;
+}
+
+.lock-toggle {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.lock-toggle.is-locked {
+    opacity: 1;
+}
+
+.color-input {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>p {
+    font-size: 1rem;
+}
+
+@media(min-width : 768px) {
+    .colors {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width : 1024) {
+    .colors {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .color {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .color-input {
+        margin-top: 1rem;
+        ;
+    }
+}
