@@ -12,8 +12,14 @@ A simple tool to generate random color palettes. With this generator, you can qu
 Got ideas to make this better? Feel free to fork, submit PRs, or report issues.  
 
 ---
-<video src="https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov" controls="controls" style="max-width: 100%; height: auto;">
+<video src="" controls="controls" style="max-width: 100%; height: auto;">
 </video>
+
+<video src="[videos/demo.mp4](https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov)" controls="controls" style="max-width: 100%; height: auto;">
+    Your browser does not support the video tag.
+</video>
+
+![Watch the video]([[https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4](https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov)](https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov))
 
 
 Let me know if you'd like to add anything specific!
