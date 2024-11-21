@@ -6,20 +6,13 @@ A simple tool to generate random color palettes. With this generator, you can qu
 - **Random Color Palettes**: Instantly generate visually appealing palettes with a click.  
 - **Customizable Output**: Configure the number of colors or set specific constraints.  
 - **Save colors**: Save colors and copy HEX codes.  
-- **Minimalist UI**: Clean and user-friendly interface for seamless usage.  
+- **Minimalist UI**: Clean and user-friendly interface for seamless usage.
 
+![image](https://github.com/user-attachments/assets/741e2dcb-7805-4f02-9f9f-cf704670f8ac)
+ 
 ### Contributions Welcome! 🌟  
 Got ideas to make this better? Feel free to fork, submit PRs, or report issues.  
 
 ---
-<video src="" controls="controls" style="max-width: 100%; height: auto;">
-</video>
-
-<video src="[videos/demo.mp4](https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov)" controls="controls" style="max-width: 100%; height: auto;">
-    Your browser does not support the video tag.
-</video>
-
-![Watch the video]((https://github.com/BryanGabrielAtangana/ColorIn/blob/main/colorin_video.mov)])
-
 
 Let me know if you'd like to add anything specific!
