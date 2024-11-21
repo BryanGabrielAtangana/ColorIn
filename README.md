@@ -12,5 +12,9 @@ A simple tool to generate random color palettes. With this generator, you can qu
 Got ideas to make this better? Feel free to fork, submit PRs, or report issues.  
 
 ---
+<video src="colorIn video.mov" controls="controls" style="max-width: 100%; height: auto;">
+    Your browser does not support the video tag.
+</video>
+
 
 Let me know if you'd like to add anything specific!
